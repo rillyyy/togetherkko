@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "KakaoBig";
+    src: url("font/kakao-big-bold.woff2") format("woff2"),
+         url("font/kakao-big-regular.woff2") format("woff2"),
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+ul, li {
+    list-style: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+html {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    /* font: inherit; */
+    vertical-align: baseline;
+    color: #000;
+}
+body {
+    font-family: "KakaoBig", sans-serif;
+    letter-spacing: auto;
+    word-break: keep-all;
+    line-height: 1;
+    }
+
+    /*
+    @font-face {
+    font-family: 'YourFont';
+    src: url('fonts/YourFont.woff2') format('woff2'),
+         url('fonts/YourFont.woff') format('woff');
+    // 추가로 필요한 경우 다른 포맷도 지정 가능
+    // 예: url('fonts/YourFont.ttf') format('truetype')
+    }
+    body {
+        font-family: 'YourFont', sans-serif;
+    }
+    */

@@ -1,0 +1,18 @@
+.wrap {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.inner {
+    position: relative;
+    height: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: beige;
+}
+.space-between {
+    position: relative;
+    justify-content: space-between;
+}
